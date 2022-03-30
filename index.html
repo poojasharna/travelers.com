@@ -1,0 +1,57 @@
+<html>
+<body bgcolor="yellow">
+
+<style>
+#a{
+
+margin-left:35%;}
+.b{
+height:50px;
+font-size:35px;
+}
+#c{
+height:50px;
+font-size:35px;
+}
+</style>
+
+<h1 id="a">Best places for travelers</h1>
+<h2>Tell a city of haryana down side</h2>
+<h3>1st letter must capitll</h3>
+ 
+<input class="b" id="myInput" type="text">
+
+<button id="c" onclick="myFunction()">Try it</button>
+<div id="test"></div>
+<p id="demo"></p>
+ <div id="tes"></div>
+<script>
+function myFunction() {
+  var letter = document.getElementById("myInput").value;
+  var text;
+
+  // If the letter is "c"
+  if (letter === "Rohtak") {
+	
+   	
+          document.getElementById("test").innerHTML = '<h3>1. Asthal Bohar Math</h3> <br/> <img src="https://www.holidify.com/images/cmsuploads/compressed/asthal_pic5_20181214114639.jpg" width="350" height="350" alt="a demo picture"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13972.35234528883!2d76.64262396977539!3d28.895730400000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d9ad08c259bcb%3A0x247d963f6532fb99!2sBohar%2C%20Haryana%20124021!5e0!3m2!1sen!2sin!4v1648661474278!5m2!1sen!2sin" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <h4>Asthal Bohar is a well-known Math located  7kms from Rohtak in the eastern outskirt of the city.    The Math serves as a shelter to the followers of Guru Gorakh Nath who happens to be a fervent devotee of Lord Shiva.    It is home to some ancient discoveries, books and relics.   Built by Pooran Bhagat, a follower of Guru Gorakh Nath, Asthal Bohar Math   was neglected for some years but then brought back to its former glory by Baba Mast Nath.   The Math now administers various educational institutions and hospitals.  </h4> <hr/>';
+    
+	 document.getElementById("tes").innerHTML = '<h3>Meham</h3><img src="https://www.holidify.com/images/cmsuploads/compressed/71_big_20181214115119.jpg" width="350" height="350" alt="a demo picture">    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27925.83350214322!2d76.27974974878151!3d28.96575586081686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391271b84aea2abd%3A0x7237e94f5f9093d4!2sMeham%2C%20Haryana!5e0!3m2!1sen!2sin!4v1648662482695!5m2!1sen!2sin" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     <h4>Meham is a small town in Rohtak well known for its Archeological sites that depict the history of the city. Meham is one of the few sites that have preserved the existence of Indus Valley Civilization. Some temples dotting the place and some mosques and tombs scattered throughout the area give its visitors a history lesson on the Hindu heritage and the Islamic Architecture. </h4>';
+   
+    
+  // If the letter is "b" or "d"
+  } else if (letter === "b" || letter === "d") {
+ 
+
+
+    
+  // If the letter is anything else
+  } else {
+    text = "Waaay off..";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
